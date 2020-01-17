@@ -1,0 +1,28 @@
+plugins {
+  id 'org.jetbrains.intellij' version '0.4.15'
+}
+
+group "jones.restarteslintaction"
+version "0.0.0"
+
+apply plugin: 'org.jetbrains.intellij'
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+  type = 'IU'
+  version = "2019.3.1"
+  plugins = [
+    "JavaScriptLanguage"
+  ]
+}
+
+patchPluginXml {
+  pluginDescription """
+  Adds an action for restarting the ESLint service.
+
+  Useful when developing ESLint plugins & configurations.
+  """
+
+  changeNotes """
+  """
+}

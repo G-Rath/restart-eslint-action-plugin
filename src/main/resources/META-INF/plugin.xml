@@ -1,0 +1,17 @@
+<idea-plugin>
+  <id>jones.restarteslintaction.restart-eslint-action</id>
+  <name>ESLint Restart Service Action</name>
+  <vendor>Gareth Jones</vendor>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>JavaScript</depends>
+
+  <extensions defaultExtensionNs="com.intellij" />
+
+  <actions>
+    <action id="eslint.restart" class="jones.restarteslintaction.RestartESLintServiceAction" text="Restart ESLint Service"
+      description="Restarts the ESLint service" />
+  </actions>
+</idea-plugin>
