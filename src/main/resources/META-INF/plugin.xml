@@ -3,8 +3,6 @@
   <name>ESLint Restart Service Action</name>
   <vendor>Gareth Jones</vendor>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
   <depends>com.intellij.modules.platform</depends>
   <depends>JavaScript</depends>
 
