@@ -2,6 +2,7 @@
   <id>jones.restarteslintaction.restart-eslint-action</id>
   <name>ESLint Restart Service Action</name>
   <vendor>Gareth Jones</vendor>
+  <idea-version since-build="193"/>
 
   <depends>com.intellij.modules.platform</depends>
   <depends>JavaScript</depends>
